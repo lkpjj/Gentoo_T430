@@ -1,0 +1,1 @@
+>=dev-texlive/texlive-latexrecommended-2012-r1
