@@ -1,0 +1,2 @@
+#!/bin/sh
+create_ap -w 2 --no-virt wlp3s0 enp0s25 kevin kevin12345 
