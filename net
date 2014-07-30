@@ -1,0 +1,3 @@
+dns_domain_lo="Think"
+config_enp0s25="dhcp"
+config_wlp3s0="dhcp"
