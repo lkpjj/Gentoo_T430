@@ -30,3 +30,6 @@ cp /etc/thinkfan.conf .
 cp /etc/env.d/02locale .
 #network client
 cp /etc/conf.d/net .
+#synaptics 
+cp /etc/X11/xorg.conf.d/50-synaptics.conf .
+
