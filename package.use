@@ -1,32 +1,29 @@
-# media-libs/giflib -X
-# required by x11-drivers/xf86-video-vmware-13.0.1-r1
-# required by x11-base/xorg-drivers-1.15[video_cards_vmware]
-# required by x11-base/xorg-server-1.15.0[xorg]
-# required by x11-drivers/xf86-video-savage-2.3.7
-=x11-libs/libdrm-2.4.52 libkms
-# required by x11-libs/glamor-0.6.0
-# required by x11-drivers/xf86-video-ati-7.3.0[glamor]
-# required by x11-base/xorg-drivers-1.15[video_cards_radeon]
-# required by x11-base/xorg-server-1.15.0[xorg]
-# required by x11-drivers/xf86-video-savage-2.3.7
-=media-libs/mesa-10.0.4 gbm xa
-# required by net-proxy/goagent-3.1.18-r2::gentoo-zh
-# required by goagent (argument)
-=dev-libs/nss-3.16 utils
-# required by net-proxy/goagent-3.1.18-r2::gentoo-zh[gtk]
-# required by goagent (argument)
->=x11-libs/vte-0.28.2-r206:0 python
+# required by media-video/vlc-2.1.2
+# required by vlc (argument)
+>=sys-libs/zlib-1.2.8-r1 minizip
 # required by kde-base/libkexiv2-4.12.5
 # required by kde-base/okular-4.12.5-r1[jpeg]
 # required by okular (argument)
 =media-gfx/exiv2-0.23-r1 xmp
-# required by dev-qt/qt-creator-2.8.1
-# required by dev-qt/qt-creator (argument)
-=dev-libs/botan-1.10.3 threads
-# required by dev-texlive/texlive-latexrecommended-2012
-=dev-texlive/texlive-latexrecommended-2012
-# required by app-text/texlive-core-2013-r1[xetex]
-# required by dev-texlive/texlive-latex-2013
-# required by dev-texlive/texlive-latexrecommended-2013
-# required by texlive-latexrecommended (argument)
+# required by app-office/libreoffice-4.2.5.2
+# required by libreoffice (argument)
 =media-libs/harfbuzz-0.9.28 icu
+# required by sys-devel/clang-3.3-r100
+# required by clang (argument)
+=sys-devel/llvm-3.3-r3 clang
+# required by net-analyzer/nmap-6.25[gtk,-ndiff]
+# required by net-analyzer/nmap (argument)
+=dev-lang/python-2.7.6 sqlite
+# required by net-analyzer/nmap-6.25[gtk,-ndiff]
+# required by @selected
+# required by @world (argument)
+=dev-lang/python-2.7.7 sqlite
+# required by net-proxy/goagent-3.1.18-r2::gentoo-zh[gtk]
+# required by goagent (argument)
+>=x11-libs/vte-0.28.2-r206:0 python
+# required by net-proxy/goagent-3.1.18-r2::gentoo-zh
+# required by goagent (argument)
+>=dev-libs/nss-3.16.3 utils
+# required by app-text/calibre-1.20
+# required by calibre (argument)
+=dev-python/PyQt4-4.10.3-r2 webkit
