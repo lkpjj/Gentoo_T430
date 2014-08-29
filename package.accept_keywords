@@ -33,3 +33,18 @@
 =app-laptop/tpacpi-bat-2.1 ~amd64
 # required by sys-power/acpi_call (argument)
 =sys-power/acpi_call-1.1.0 ~amd64
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by steam-meta (argument)
+=games-util/steam-launcher-1.0.0.48 ~amd64
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by steam-meta (argument)
+=games-util/steam-games-meta-0-r20140325 ~amd64
+# required by steam-meta (argument)
+=games-util/steam-meta-0-r20131107 ~amd64
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by steam-meta (argument)
+=games-util/steam-client-meta-0-r20140616 ~amd64
+# required by www-client/google-chrome-unstable (argument)
+=www-client/google-chrome-unstable-38.0.2125.24_p1 ~amd64
+# required by >www-client/firefox-24.7.0 (argument)
+=www-client/firefox-31.0 ~amd64

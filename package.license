@@ -1,2 +1,6 @@
 # required by google-chrome (argument)
 >=www-client/google-chrome-36.0.1985.125_p1 google-chrome
+# required by www-plugins/adobe-flash (argument)
+>=www-plugins/adobe-flash-11.2.202.400 AdobeFlash-11.x
+# required by www-client/google-chrome-unstable (argument)
+>=www-client/google-chrome-unstable-38.0.2125.8_p1 google-chrome

@@ -27,3 +27,14 @@
 # required by app-text/calibre-1.20
 # required by calibre (argument)
 =dev-python/PyQt4-4.10.3-r2 webkit
+# required by media-video/mplayer2-2.0_p20130428-r1
+# required by media-video/smplayer-0.8.5
+# required by @selected
+# required by @world (argument)
+>=virtual/ffmpeg-9-r1 threads
+# required by virtual/ffmpeg-9-r1
+# required by media-video/mplayer2-2.0_p20130428-r1
+# required by media-video/smplayer-0.8.5
+# required by @selected
+# required by @world (argument)
+=media-video/libav-9.14 threads
