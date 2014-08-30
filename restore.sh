@@ -33,3 +33,4 @@ cp ./02locale /etc/env.d/
 cp ./net /etc/conf.d/
 #synaptics
 cp ./50-synaptics.conf /etc/X11/xorg.conf.d/
+cp ./shutdown.sh /usr/bin/
