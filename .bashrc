@@ -14,5 +14,5 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
-
+export PS1="\[\e[01;31m\]\u@\[\e[0m\]\[\e[00;36m\]\w\[\e[0m\]\[\e[00;31m\]>\[\e[0m\]"
 # Put your fun stuff here.

@@ -4,3 +4,7 @@
 >=www-plugins/adobe-flash-11.2.202.400 AdobeFlash-11.x
 # required by www-client/google-chrome-unstable (argument)
 >=www-client/google-chrome-unstable-38.0.2125.8_p1 google-chrome
+# required by teamviewer (argument)
+>=net-misc/teamviewer-9.0.30203 TeamViewer
+# required by app-emulation/virtualbox-bin (argument)
+=app-emulation/virtualbox-bin-4.2.24 PUEL

@@ -1,4 +1,6 @@
 #!/bin/sh
+##为实现该脚本功能需安装的软件有: zentiy,gksu,pm-utils,dbus,slock
+
 ACTION=`zenity --width=60 --height=260 --list --radiolist --text="选择菜单功能" --title="菜单栏" --column "Choice" --column "Action" TRUE 关机 FALSE 重启 FALSE 锁屏`
 
 if [ -n "${ACTION}" ];then

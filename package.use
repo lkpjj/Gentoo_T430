@@ -38,3 +38,19 @@
 # required by @selected
 # required by @world (argument)
 =media-video/libav-9.14 threads
+# required by dev-qt/qt-creator-2.8.1
+# required by dev-qt/qt-creator (argument)
+=dev-libs/botan-1.10.3 threads
+# required by kde-base/kdepimlibs-4.12.5
+# required by kde-base/kopete-4.12.5
+# required by kde-base/kdenetwork-meta-4.12.5
+# required by kde-base/kde-meta-4.12.5
+# required by kde-meta (argument)
+=kde-base/kdelibs-4.12.5-r2 semantic-desktop
+# required by app-office/akonadi-server-1.11.0[qt4]
+# required by kde-base/kdepimlibs-4.12.5
+# required by kde-base/kopete-4.12.5
+# required by kde-base/kdenetwork-meta-4.12.5
+# required by kde-base/kde-meta-4.12.5
+# required by kde-meta (argument)
+>=dev-qt/qtsql-4.8.5:4 mysql
