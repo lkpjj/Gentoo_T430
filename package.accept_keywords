@@ -79,3 +79,75 @@
 # required by sci-libs/vtk-6.0.0
 # required by vtk (argument)
 =sci-libs/exodusii-6.02 ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtpositioning-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtgraphicaleffects-5.4.0_alpha ~amd64
+# required by dev-qt/qtwidgets-5.4.0_alpha::qt
+# required by dev-qt/qtwebkit-5.4.0_alpha::qt
+# required by @qt5-addons (argument)
+=dev-qt/qtgui-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtxmlpatterns-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtsensors-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtopengl-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtsvg-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtprintsupport-5.4.0_alpha ~amd64
+# required by dev-qt/qtnetwork-5.4.0_alpha::qt
+# required by dev-qt/qtmultimedia-5.4.0_alpha::qt
+# required by @qt5-essentials (argument)
+=dev-qt/qtcore-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtimageformats-5.4.0_alpha ~amd64
+# required by dev-qt/qtgraphicaleffects-5.4.0_alpha::qt
+# required by @qt5-addons (argument)
+=dev-qt/qtdeclarative-5.4.0_alpha ~amd64
+# required by @qt5-essentials (argument)
+=dev-qt/qtquickcontrols-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtx11extras-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtserialport-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtdbus-5.4.0_alpha ~amd64
+# required by x11-libs/pango-1.36.5
+# required by gnome-extra/synapse-0.2.10
+# required by @selected
+# required by @world (argument)
+=media-libs/harfbuzz-0.9.35 ~amd64
+# required by dev-qt/qtgui-5.4.0_alpha::qt[xcb]
+# required by dev-qt/qtmultimedia-5.4.0_alpha::qt
+# required by @qt5-essentials (argument)
+=x11-libs/libxkbcommon-0.4.1 ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtconcurrent-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtquick1-5.4.0_alpha ~amd64
+# required by dev-qt/qtx11extras-5.4.0_alpha::qt
+# required by @qt5-addons (argument)
+=dev-qt/qtwidgets-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtwebkit-5.4.0_alpha ~amd64
+# required by @qt5-essentials (argument)
+=dev-qt/qttest-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtwebsockets-5.4.0_alpha ~amd64
+# required by @qt5-essentials (argument)
+=dev-qt/qtmultimedia-5.4.0_alpha ~amd64
+# required by @qt5-essentials (argument)
+=dev-qt/qtnetwork-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtxml-5.4.0_alpha ~amd64
+# required by @qt5-addons (argument)
+=dev-qt/qtscript-5.4.0_alpha ~amd64
+# required by dev-qt/qtwebkit-5.4.0_alpha::qt
+# required by @qt5-addons (argument)
+=dev-qt/qtsql-5.4.0_alpha ~amd64
+# required by net-misc/iputils-20121221[ssl,-static,ipv6]
+# required by @system
+# required by @world (argument)
+=dev-libs/openssl-1.0.2_beta2 **

@@ -54,3 +54,98 @@
 # required by kde-base/kde-meta-4.12.5
 # required by kde-meta (argument)
 >=dev-qt/qtsql-4.8.5:4 mysql
+# required by dev-qt/qtcore-5.4.0_alpha::qt
+# required by dev-qt/qtsql-5.4.0_alpha::qt
+# required by dev-qt/qtwebkit-5.4.0_alpha::qt
+# required by @qt5-addons (argument)
+=dev-libs/libpcre-8.35 pcre16
+# required by dev-qt/qtwebkit-5.4.0_alpha::qt
+# required by @qt5-addons (argument)
+=dev-qt/qtcore-5.4.0_alpha icu
+# required by dev-qt/qtnetwork-5.4.0_alpha::qt[ssl]
+# required by dev-qt/qtmultimedia-5.4.0_alpha::qt
+# required by @qt5-essentials (argument)
+=dev-libs/openssl-1.0.1i -bindist
+# required by net-libs/webkit-gtk-2.4.4
+# required by gnome-extra/zenity-3.12.1[webkit]
+# required by @selected
+# required by @world (argument)
+=media-libs/harfbuzz-0.9.35 icu
+# required by net-misc/openssh-6.6_p1-r1[-static]
+# required by virtual/ssh-0[-minimal]
+# required by @system
+# required by @world (argument)
+=dev-libs/openssl-1.0.1i bindist
+# required by dev-qt/qtnetwork-5.4.0_alpha::qt[ssl]
+# required by @qt5-essentials
+# required by @selected
+# required by @world (argument)
+=dev-libs/openssl-1.0.1i -bindist
+# required by dev-qt/qtnetwork-5.4.0_alpha::qt[ssl]
+# required by @qt5-essentials
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-1.0.2_beta2 -bindist
+# required by gnome-extra/zeitgeist-extensions-0.0.13-r2[python_single_target_python2_7]
+# required by gnome-extra/synapse-0.2.10[zeitgeist]
+# required by @selected
+# required by @world (argument)
+>=dev-lang/python-2.7.8:2.7 sqlite
+# required by dev-ruby/rdoc-4.1.2[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p481[rdoc]
+# required by dev-ruby/json-1.8.1[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.1.2
+# required by dev-texlive/texlive-langcjk-2013
+# required by app-text/texlive-2013[cjk]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/racc-1.4.12 ruby_targets_ruby21
+# required by dev-lang/ruby-2.1.2
+# required by dev-ruby/rdoc-4.1.2[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p481[rdoc]
+# required by dev-ruby/json-1.8.1[ruby_targets_ruby20]
+>=dev-ruby/rake-10.3.2 ruby_targets_ruby21
+# required by media-video/mplayer2-2.0_p20131009
+# required by media-video/smplayer-14.3.0
+# required by @selected
+# required by @world (argument)
+=media-video/libav-9.16 threads
+# required by sys-devel/clang-3.5.0-r100
+# required by @selected
+# required by @world (argument)
+=sys-devel/llvm-3.5.0 clang
+# required by dev-qt/qt-creator-2.8.1
+# required by @selected
+# required by @world (argument)
+=dev-libs/botan-1.10.5 threads
+# required by virtual/rubygems-7
+# required by dev-ruby/rake-10.3.2[-test,ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p481
+# required by dev-ruby/rdoc-4.1.2[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.1.2[rdoc]
+# required by dev-ruby/json-1.8.1[ruby_targets_ruby21]
+>=dev-ruby/rubygems-2.2.2 ruby_targets_ruby21
+# required by dev-ruby/rdoc-4.1.2[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p481[rdoc]
+# required by dev-ruby/rubygems-2.2.2[ruby_targets_ruby20]
+# required by virtual/rubygems-7
+# required by dev-ruby/rake-10.3.2[-test,ruby_targets_ruby21]
+# required by dev-ruby/racc-1.4.12[-test,ruby_targets_ruby21]
+>=dev-ruby/json-1.8.1 ruby_targets_ruby21
+# required by dev-lang/ruby-2.1.2[rdoc]
+# required by dev-ruby/json-1.8.1[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p481
+# required by dev-ruby/rubygems-2.2.2[ruby_targets_ruby20]
+# required by virtual/rubygems-7
+# required by dev-ruby/rake-10.3.2[-test,ruby_targets_ruby21]
+# required by dev-ruby/racc-1.4.12[-test,ruby_targets_ruby21]
+>=dev-ruby/rdoc-4.1.2 ruby_targets_ruby21
+# required by kde-base/ktnef-4.12.5
+# required by kde-base/kdepim-meta-4.12.5
+# required by kde-base/kde-meta-4.12.5[semantic-desktop]
+# required by @selected
+# required by @world (argument)
+=app-office/akonadi-server-1.12.1-r1 soprano
+# required by sci-libs/scipy-0.12.1
+# required by scipy (argument)
+=dev-python/numpy-1.8.0-r1 lapack
