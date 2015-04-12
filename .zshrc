@@ -7,7 +7,8 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="superjarin"
 
-export matlab=/usr/local/MATLAB/R2013a/bin/./matlab
+export PATH=$PATH:$HOME/.gvm/bin
+
 export EDITOR="emacs"
 export DISABLE_AUTO_TITLE=true
 
@@ -102,3 +103,4 @@ export OF_ROOT=/home/kevin/software/openFrameWorks
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+[[ -s "/home/kevin/.gvm/scripts/gvm" ]] && source "/home/kevin/.gvm/scripts/gvm"

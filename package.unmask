@@ -5,8 +5,8 @@
 # A more recent source build maintained by the community is available in the
 # seden overlay. A more recent binary is available in the java-overlay.
 =dev-util/eclipse-sdk-3.5.1-r1
-# required by app-text/texlive-2013
-# required by @selected
-# required by @world (argument)
+# required by dev-texlive/texlive-science-2012-r1
+# required by app-text/texlive-2012[science]
+# required by texlive (argument)
 # /etc/portage/package.mask:
-=dev-texlive/texlive-latexrecommended-2013
+=dev-texlive/texlive-latexrecommended-2012

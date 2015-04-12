@@ -21,7 +21,9 @@ cp /etc/fstab .
 #create wifi
 cp /usr/bin/createAP .
 #xrandr
-cp /usr/bin/auto_display.sh .
+cp /usr/local/bin/auto_display.sh .
+cp /usr/local/bin/update_ctrl.sh .
+cp /usr/local/bin/auto_projector.sh .
 #X,slim
 cp /etc/slim.conf .
 #thinkfan

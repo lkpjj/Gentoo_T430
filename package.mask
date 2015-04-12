@@ -1,1 +1,2 @@
 >=dev-texlive/texlive-latexrecommended-2012-r1
+>=dev-texlive/texlive-science-2012-r1

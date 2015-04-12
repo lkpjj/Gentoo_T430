@@ -1,4 +1,3 @@
-#! /usr/bin/bash
 xrandr --output LVDS1 --mode 1024x768
 
 result=xrandr | grep "VGA"

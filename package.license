@@ -1,10 +1,8 @@
 # required by google-chrome (argument)
->=www-client/google-chrome-36.0.1985.125_p1 google-chrome
-# required by www-plugins/adobe-flash (argument)
->=www-plugins/adobe-flash-11.2.202.400 AdobeFlash-11.x
-# required by www-client/google-chrome-unstable (argument)
->=www-client/google-chrome-unstable-38.0.2125.8_p1 google-chrome
-# required by teamviewer (argument)
->=net-misc/teamviewer-9.0.30203 TeamViewer
-# required by app-emulation/virtualbox-bin (argument)
-=app-emulation/virtualbox-bin-4.2.24 PUEL
+>=www-client/google-chrome-39.0.2171.95_p1 google-chrome
+# required by adobe-flash (argument)
+>=www-plugins/adobe-flash-11.2.202.425 AdobeFlash-11.x
+# required by dev-java/oracle-jdk-bin (argument)
+<dev-java/oracle-jdk-bin-1.7.0.71 Oracle-BCLA-JavaSE
+# required by net-misc/teamviewer (argument)
+>=net-misc/teamviewer-9.0.32150 TeamViewer
